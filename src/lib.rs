@@ -1,5 +1,6 @@
 pub(crate) mod embedding;
 pub(crate) mod reranker;
+pub(crate) mod search;
 
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
