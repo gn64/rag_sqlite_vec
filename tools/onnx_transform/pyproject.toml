@@ -1,0 +1,18 @@
+[project]
+name = "onnx-transform"
+version = "0.1.0"
+description = "HF text embedding model to ONNX exporter (with pooling)"
+readme = "README.md"
+requires-python = ">=3.12.1"
+dependencies = [
+  "transformers>=4.41.0",
+  "torch>=2.2.0",
+  "onnx>=1.15.0",
+  "onnxruntime>=1.17.0",
+  "sentencepiece>=0.1.99",
+  "huggingface_hub>=0.23.0",
+  "pyproject-toml>=0.1.0",
+  "onnxscript>=0.4.0",
+  "fugashi>=1.5.1",
+  "unidic-lite>=1.0.8",
+]

@@ -1,1 +1,0 @@
-# rag_sqlite_vec
